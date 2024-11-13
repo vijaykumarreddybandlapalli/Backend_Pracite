@@ -1,0 +1,359 @@
+
+<html>
+<head>
+    
+    <title>Resume - B Vijayakumar Reddy</title>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background-color: brown;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            background-color: whitesmoke;
+            padding: 50px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 30px;
+            margin-bottom: 5px;
+            margin-top: 0;
+            letter-spacing: 2px;
+            color: black;
+        }
+
+        .header h2 {
+            font-size: 20px;
+            color: #555;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .contact-info a {
+            color: black;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .fab fa-Naukari{
+            margin-left: 10px;
+        }
+
+
+        .section h3 {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+            
+            font-size: 20px;
+           
+        }
+        .section p {
+            margin-left: 20px;
+            
+        }
+        .section Education{
+            margin-bottom: 30px;
+        }
+        .education-item{
+            margin-bottom: 20px;
+        }
+        .education-item h4{
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .education-item p{
+            margin: 0;
+            font-size: 16px;
+            color: #555;
+        }
+        /* Skills section*/
+
+        .skills-list{
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills-list li{
+            width: 50%; 
+            margin-bottom: 10px;          
+        }
+        .skills-list li::before{
+            content: "✔";
+            margin-right: 10px;
+            color: green;
+        }
+
+        /* Projects Section */
+        .projects {
+            margin-bottom: 30px;  
+        }
+
+        .project-item {
+            margin-bottom: 15px;
+        }
+        .project-item h4 {
+            margin: 0;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .project-item p {
+            margin: 0;
+            font-size: 16px;
+            color: #555;
+        }
+        /* Certifications Section */
+        .certifications {
+            margin-bottom: 30px;
+        }
+
+        .certifications-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .certifications-list li {
+            margin-bottom: 10px;
+        }
+
+        .certifications-list li::before {
+            content: "*";
+            margin-right: 10px;
+            color: red;
+        }
+        /* Personal Information Section */
+        .personal-info ul {
+            list-style-type: none;
+            padding-left: 0;
+            font-size: 16px;
+            color: #555;
+            }
+
+        .personal-info ul li {
+            margin-bottom: 10px;
+        }
+        #download-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #download-btn:hover {
+            background-color: #0056b3;
+        }
+        @media screen and (max-width: 768px) {
+            .container {
+                padding: 20px;
+                font-size: 16px;
+            }
+            .contact-info a {
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
+        
+    
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>B VIJAYAKUMAR REDDY</h1>
+            <h2>Developer</h2>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <a href="tel:+916281242102"><i class="fas fa-phone"></i> 6281242102</a>  |
+            <a href="mailto:vijaykumarreddy2342@gmail.com" target="_blank"><i class="fas fa-envelope"></i> vijaykumarreddy</a>|
+            <a href="https://github.com/vijaykumarreddybandlapalli" target="_blank"><i class="fab fa-github"></i> github</a> |
+            <a href="https://www.linkedin.com/in/bandlapallivijayakumarreddy" target="_blank"><i class="fab fa-linkedin"></i> linkedin</a>|
+            <a href="https://www.naukri.com/mnjuser/profile" target="_blank"><i class="fas fa-briefcase"></i> Naukri</a>
+        </div>
+
+        <!-- Objective Section -->
+        <div class="section">
+            <h3>Objective</h3>
+            <p>To work as a full-stack web developer, utilizing my skills in front-end and back-end technologies along with expertise in AWS Cloud services to contribute to the development and scalability of innovative solutions for the growth of the organization.</p>
+        </div>
+         <!-- Education section -->
+        <div class="section Education">
+             <h3>Education</h3>
+             <!-- btech -->
+            <div class="education-item">
+              <h4>Graduation (A.M.Reddy memorial College of Engineering and Technology in Narasaraopet from JNTUK University)  || 2020-2024</h4>
+              <p>B.Tech in Electronic Communication and Engineering (ECE) || Current CGPA: 7.25</p>
+            </div>
+            <!-- Intermediate section -->
+            <div class="education-item">
+                <h4>Intermediate (S.V.B Junior College, ODC) || 2018-2020</h4>
+                <p>AP State Board of Intermediate in MPC || CGPA:7.25</p>
+            </div>
+             <!-- Schooling Section -->
+            <div class="education-item">
+                <h4>Schooling(Z.P.High School,Gownipalli) ||2017-2018 </h4>
+                <p>AP State Board SSC || CGPA:9.5</p>
+            </div>
+
+         </div>
+         <!-- Skills Section -->
+         <div class="section skills">
+            <h3>Skills</h3>
+            <ul class="skills-list">
+                <!-- Frontend Basics -->
+                <li>HTML, CSS, JavaScript</li>
+
+                 <!-- Python Backend Basics -->
+                <li>Python developer</li>
+                <!-- <li>Django or Flask (Basic routing, models, views, templates)</li> -->
+
+                    <!-- Database Basics -->
+                <li>SQL</li>
+                <!-- <li>MySQL or PostgreSQL (Basic queries, indexing)</li> -->
+
+                    <!-- Version Control Basics -->
+                <li>Git,GitHub</li>
+                <!-- <li>GitHub (Repository management, pull requests)</li> -->
+
+                    <!-- Deployment Basics -->
+                <li>AWS Cloud Computing</li>
+
+                    <!-- Soft Skills -->
+                <li>Linux Support</li>
+                <li>React.js</li>
+                <li>Networking</li>
+                <li>Software Testing</li>
+                <li>Node.js</li>
+               
+            </ul>
+
+         </div>
+         <!-- Projects Section -->
+        <div class="section projects">
+            <h3>Projects</h3>
+
+            <!-- Digital Technology Project -->
+            <div class="project-item">
+                <h4>Digital Technology | 2 months</h4>
+                <p>Digital technology refers to electronic tools systems devices and resources that generate store or process data.
+                     These technologies include computers the Internet multimedia devices and mobile phones.</p>
+                     <h4>Components</h4>
+                     <ul class="skills-item">
+                        <li>
+                            <b>Computers:</b> Used for processing and storing data.</li>
+                            <li><b>Internet:</b> Global network for information sharing.</li>
+                            <li><b>Multimedia Devices:</b> Devices like TVs and gaming consoles for media consumption.</li>
+                            <li><b>Mobile Phones:</b> Portable devices for communication and accessing digital services.</li>
+                           
+                     </ul>
+            </div>
+
+            <!-- Train Collision Avoidance Project -->
+            <div class="project-item">
+                <h4>Sensor-Based Identification System for Train Collision Avoidance | 4 months</h4>
+                <p>This project involves a sophisticated safety mechanism designed to detect potential collisions and take pre-emptive actions to prevent accidents.
+                  The system integrates sensors data processing units communication networks and control mechanisms to enhance the safety and efficiency of railway operations.
+                </p>
+                <h5>Key Components</h5>
+                <ul class="skills-list">
+                    
+                    <li><b>Sensors:</b> Radar, LIDAR, ultrasonic, infrared, and cameras to detect obstacles and monitor distances.</li>
+                    <li>Data Processing Units: Central unit to analyze sensor data using algorithms and machine learning for accurate detection.</li>
+                    <li>Control Mechanisms: Integration with Automatic Train Control (ATC) to take immediate actions like emergency braking or rerouting.</li>
+                    <li>Real-time alerts to operators and control centers.
+                        Pre-emptive actions to avoid accidents, improving safety and reducing delays.
+                        </li>
+                </ul>
+            </div>
+            <!-- Certifications Section -->
+            <div class="section certifications">
+              <h3>Certifications</h3>
+               <ul class="certifications-list">
+                    <li>AWS Re/Start in Cloud Computing</li>
+                    <li>Python Full Stack Internship</li>
+                    <li>Salesforce Developer Virtual Internship</li>
+                    <li>Embedded System</li>
+                </ul>
+            </div>
+            
+                <!-- Personal Information Section -->
+                <div class="section personal-info">
+                    <h3>Personal Information</h3>
+                        <ul>
+                            <li><strong>Father's Name:</strong> Bandlapalli Obulareddy</li>
+                            <li><strong>Mother's Name:</strong> Bandlapalli Anusuyamma</li>
+                            <li><strong>Date of Birth:</strong> 13/03/2003</li>
+                            <li><strong>Gender:</strong> Male</li>
+                            <li><strong>Nationality:</strong> Indian</li>
+                            <li><strong>Religion:</strong> Hindu</li>
+                        </ul>
+                </div>
+
+                <button id="download-btn">Download Resume</button>
+    </div>
+    
+    <script>
+        document.getElementById('download-btn').addEventListener('click', function() {
+            const element = document.querySelector('.container');
+            
+            // Get current date for filename
+            const currentDate = new Date().toLocaleDateString().replace(/\//g, '-');
+            const filename = `Vijayakumar_Reddy_Resume_${currentDate}.pdf`;
+            
+            if (element) {
+                html2pdf()
+                    .from(element)
+                    .set({
+                        margin: 1,
+                        filename: filename,
+                        pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }, // Prevents awkward breaks
+                        html2canvas: { scale: 3 },
+                        jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+                    })
+                    .save();
+            } else {
+                alert('Content found for PDF generation.');
+            }
+        });
+    </script>
+    
+    
+
+</body>
+</html>
